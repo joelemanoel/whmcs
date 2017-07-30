@@ -351,7 +351,7 @@ function httpPost($url,$params,$GATEWAY,$invoiceid,$urlRetorno,$vencimentoBoleto
        "endereco"   => $address1,
        "bairro"     => $address2,
        "cidade"     => $city,
-       "estado"     => $$state,
+       "estado"     => $state,
        "cep"        => $postcode,
     );
 
